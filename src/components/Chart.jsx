@@ -33,7 +33,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
                     fill: true
                 }]
             }}
-                height={100}
+                height={120}
             />) : null
     )
 
@@ -52,7 +52,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     //                 legend: { display: false },
     //                 title: { display: true, text: `Current Situation in ${country}` }
     //             }}
-    //             height={100}
+                // height={120}
     //         />
     //         : null
     // )
@@ -67,7 +67,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
                         data: [confirmed, recovered, deaths],
                     }]
                 }}
-                height={100}
+                height={120}
             />
             : null
     )
