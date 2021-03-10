@@ -1,10 +1,6 @@
 import React from 'react'
 
-import Header from './components/Header'
-import Reading from './components/Reading'
-import CustomSearch from './components/CustomSearch'
-import Chart from './components/Chart'
-import Footer from './components/Footer'
+import {  Header, Card, CustomSearch, Chart, Footer } from "./components";
 
 import './App.css'
 
@@ -19,7 +15,7 @@ class App extends React.Component {
 
     async componentDidMount() {
         const fetchedData = await fetchData()
-        console.log(fetchData)
+        // console.log(fetchData)
 
         this.setState({ data: fetchedData })
     }
@@ -37,8 +33,8 @@ class App extends React.Component {
             <div>
                 <Header />
                 <div className="container">
-                    <Reading data={data} />
                     <CustomSearch handleCountryChange={this.handleCountryChange} />
+                    <Card data={data} />
                     <Chart data={data} country={country} />
                 </div>
                 <Footer />
