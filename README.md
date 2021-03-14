@@ -1,6 +1,6 @@
-# Covid-19 Tracker
+# Covid-19 Tracker PWA
 
-LIVE AT: https://covid-19-tracker-reactjs-app.netlify.app/
+LIVE AT: https://selim-covid19-tracker-app.netlify.app/
 
 ### Using
 
