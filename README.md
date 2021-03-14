@@ -8,3 +8,12 @@ LIVE AT: https://selim-covid19-tracker-app.netlify.app/
 * Axios
 * ReactChartJs2
 * Bootstrap
+
+**Run Application**
+
+```
+cd Covid19-Tracker-PWA
+npm install
+npm start
+```
+
