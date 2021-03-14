@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {  Header, Card, CustomSearch, Chart, Footer } from "./components";
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 import { fetchData } from './api/index'

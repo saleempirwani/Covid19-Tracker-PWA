@@ -40,7 +40,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
     return (
 
-        <div>
+        <div className="mb-5">
             {country ? pieChart : barChart}
         </div>
     )
